@@ -1,0 +1,37 @@
+{
+  "raw_log": "/home/potato/Slicer_Workspace2/Test/logs/feedback_20261107T124431_528345Z.jsonl",
+  "forward_before_m": [
+    -1.4228,
+    -1.4,
+    -1.3582,
+    -1.3354
+  ],
+  "forward_after_m": [
+    1.4228,
+    1.4,
+    1.3582,
+    1.3354
+  ],
+  "yaw_correlation_before": -0.9338,
+  "yaw_correlation_after": 0.9338,
+  "manual_yaw_degrees": {
+    "left": 57.9,
+    "right": -63.28
+  },
+  "actual_C_controller_model": {
+    "old_mapping": {
+      "final_rate_rad_s": 1.659374999999998,
+      "heading_deg": 484.2818333756704,
+      "ideal_wheel_tracking_model": true
+    },
+    "corrected_mapping": {
+      "final_rate_rad_s": 0.0003390169377836002,
+      "heading_deg": 4.546923598400114,
+      "ideal_wheel_tracking_model": true
+    }
+  },
+  "pid_changed": false,
+  "imu_sign_changed": false,
+  "hardware_motion_performed": false,
+  "verified": true
+}

@@ -1,0 +1,507 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .comment       0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_macro   0x0000000000000000      0xa7e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_macro   0x0000000000000000      0x174 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .comment       0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_macro   0x0000000000000000      0xa7e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_macro   0x0000000000000000      0x34e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_macro   0x0000000000000000      0x118 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .comment       0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0xa7e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0x34e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0x118 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x6b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x3b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x2d /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x42 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0xd39 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x12 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x22 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x52 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x18 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x5c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0x174 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x16 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x43 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x57 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x52 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0x182 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000      0x333 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0x35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0xde /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000       0xd6 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x0000000000000000     0x8c35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .comment       0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .group         0x0000000000000000        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .text          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .data          0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .bss           0x0000000000000000        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .debug_macro   0x0000000000000000      0xa7e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .debug_macro   0x0000000000000000      0x34e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .debug_macro   0x0000000000000000      0x118 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .comment       0x0000000000000000       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000080000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+LOAD /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+                0x0000000020020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x188
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+                0x0000000008000000                vectors
+
+.text           0x0000000008000188     0x2850
+ *(.text*)
+ .text.Reset_Handler
+                0x0000000008000188       0x58 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+                0x0000000008000188                Reset_Handler
+ .text.p32      0x00000000080001e0       0x12 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.crc      0x00000000080001f2       0x32 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.latch_fault
+                0x0000000008000224      0x118 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.receive  0x000000000800033c       0x8c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.emit     0x00000000080003c8       0xa0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.enabled  0x0000000008000468       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.pin      0x0000000008000478       0x5c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.pwm_init
+                0x00000000080004d4       0x68 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.pwm      0x000000000800053c       0x70 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.zero     0x00000000080005ac       0x50 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.stop     0x00000000080005fc       0x6c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.rd32.constprop.0
+                0x0000000008000668        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .text.SysTick_Handler
+                0x0000000008000674       0x18 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x0000000008000674                SysTick_Handler
+ .text.Default_Handler
+                0x000000000800068c       0x24 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x000000000800068c                Default_Handler
+ .text.USART2_IRQHandler
+                0x00000000080006b0        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x00000000080006b0                USART2_IRQHandler
+ .text.USART1_IRQHandler
+                0x00000000080006bc        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x00000000080006bc                USART1_IRQHandler
+ .text.USART3_IRQHandler
+                0x00000000080006c8        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x00000000080006c8                USART3_IRQHandler
+ .text.startup.main
+                0x00000000080006d4     0x1794 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x00000000080006d4                main
+ .text.memset   0x0000000008001e68       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+                0x0000000008001e68                memset
+ .text.pid.constprop.0
+                0x0000000008001e78       0xc8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .text.body_reset
+                0x0000000008001f40       0x1c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+                0x0000000008001f40                body_reset
+ .text.body_update
+                0x0000000008001f5c      0x2dc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+                0x0000000008001f5c                body_update
+ .text.delay_us
+                0x0000000008002238       0x22 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ *fill*         0x000000000800225a        0x2 
+ .text.scl_high
+                0x000000000800225c       0x28 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.finish   0x0000000008002284       0x24 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.start    0x00000000080022a8       0x2c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.write_byte
+                0x00000000080022d4       0x6c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.reg_write
+                0x0000000008002340       0x38 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.reg_read
+                0x0000000008002378       0xc4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .text.icm20948_init
+                0x000000000800243c      0x17c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                0x000000000800243c                icm20948_init
+ .text.icm20948_sample
+                0x00000000080025b8      0x25c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                0x00000000080025b8                icm20948_sample
+ .text.icm20948_ready
+                0x0000000008002814       0x24 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                0x0000000008002814                icm20948_ready
+ .text.body_decode_command
+                0x0000000008002838       0x42 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+                0x0000000008002838                body_decode_command
+ .text.body_pack_telemetry
+                0x000000000800287a      0x10a /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+                0x000000000800287a                body_pack_telemetry
+ *(.rodata*)
+ .rodata        0x0000000008002984       0x28 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .rodata.enc    0x00000000080029ac       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .rodata        0x00000000080029bc       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .rodata        0x00000000080029cc        0xc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                0x00000000080029d8                . = ALIGN (0x4)
+
+.glue_7         0x00000000080029d8        0x0
+ .glue_7        0x00000000080029d8        0x0 linker stubs
+
+.glue_7t        0x00000000080029d8        0x0
+ .glue_7t       0x00000000080029d8        0x0 linker stubs
+
+.vfp11_veneer   0x00000000080029d8        0x0
+ .vfp11_veneer  0x00000000080029d8        0x0 linker stubs
+
+.v4_bx          0x00000000080029d8        0x0
+ .v4_bx         0x00000000080029d8        0x0 linker stubs
+
+.iplt           0x00000000080029d8        0x0
+ .iplt          0x00000000080029d8        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+
+.rel.dyn        0x00000000080029d8        0x0
+ .rel.iplt      0x00000000080029d8        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+
+.ARM.exidx
+ *(.ARM.exidx*)
+                0x00000000080029d8                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x4 load address 0x00000000080029d8
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data.cal_index
+                0x0000000020000000        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000001        0x1 
+ .data.output_pwm_cap
+                0x0000000020000002        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _edata = .
+
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000080029dc
+ .igot.plt      0x0000000020000004        0x0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+
+.bss            0x0000000020000004      0x5d0 load address 0x00000000080029dc
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _sbss = .
+ *(.bss*)
+ .bss.ack_seq   0x0000000020000004        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.active_source
+                0x0000000020000006        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000007        0x1 
+ .bss.actual    0x0000000020000008        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.battery_mv
+                0x0000000020000010        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000012        0x2 
+ .bss.cal_end   0x0000000020000014        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.configured
+                0x0000000020000018        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000019        0x3 
+ .bss.control_interval_ms
+                0x000000002000001c        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.cycle_delta
+                0x0000000020000020        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.direct_mode
+                0x0000000020000028        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000029        0x1 
+ .bss.direct_pwm
+                0x000000002000002a        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.duty      0x0000000020000032        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.enc_sign  0x000000002000003a        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault     0x000000002000003e        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x000000002000003f        0x1 
+ .bss.fault_command
+                0x0000000020000040        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault_delta
+                0x0000000020000048        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault_inputs
+                0x0000000020000050        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000051        0x3 
+ .bss.fault_interval
+                0x0000000020000054        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault_mode
+                0x0000000020000058        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000059        0x3 
+ .bss.fault_ms  0x000000002000005c        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault_pwm
+                0x0000000020000060        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.fault_source
+                0x0000000020000068        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000069        0x3 
+ .bss.fault_uart_sr
+                0x000000002000006c        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.filtered  0x0000000020000070       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.first_fault
+                0x0000000020000080        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.frame     0x0000000020000081       0x49 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.have_command
+                0x00000000200000ca        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.hello_ok  0x00000000200000cb        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.integral  0x00000000200000cc       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.last_command
+                0x00000000200000dc        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.last_control
+                0x00000000200000e0        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.last_report
+                0x00000000200000e4        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.ms        0x00000000200000e8        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.nonce     0x00000000200000ec        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.opposite  0x00000000200000f0        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.previous  0x00000000200000f8        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.previous_target
+                0x0000000020000100        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.pwm_sign  0x0000000020000108        0x4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.raw_total
+                0x000000002000010c       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.rr        0x000000002000011c        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.rw        0x000000002000011e        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.rx        0x0000000020000120      0x200 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.seq       0x0000000020000320        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.serial_resync
+                0x0000000020000322        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000323        0x1 
+ .bss.sources   0x0000000020000324       0x20 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.stalled   0x0000000020000344        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.sum_counts
+                0x000000002000034c       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.targets   0x000000002000035c        0x8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.test_blocked
+                0x0000000020000364        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.tx        0x0000000020000365      0x200 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x0000000020000565        0x1 
+ .bss.tx_read   0x0000000020000566        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.tx_write  0x0000000020000568        0x2 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .bss.used      0x000000002000056a        0x1 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ *fill*         0x000000002000056b        0x1 
+ .bss.body      0x000000002000056c       0x30 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+                0x000000002000056c                body
+ .bss.imu       0x000000002000059c       0x38 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                0x000000002000059c                imu
+ *(COMMON)
+                0x00000000200005d4                . = ALIGN (0x4)
+                0x00000000200005d4                _ebss = .
+
+/DISCARD/
+ *(.comment*)
+ *(.note*)
+                0x0000000000000001                ASSERT ((_ebss < (_estack - 0x2000)), RAM/stack overflow)
+                0x0000000000000001                ASSERT ((_ebss < 0x2001d000), Persistent boot trace overlaps BSS)
+OUTPUT(/home/potato/Slicer_Workspace2/Hardware/Firmware/v1.0/src/build/c30d_body.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ .ARM.attributes
+                0x0000000000000000       0x25 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .ARM.attributes
+                0x0000000000000025       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .ARM.attributes
+                0x0000000000000059       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .ARM.attributes
+                0x000000000000008d       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .ARM.attributes
+                0x00000000000000c1       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .ARM.attributes
+                0x00000000000000f5       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_line     0x0000000000000000     0x42e7
+ .debug_line    0x0000000000000000       0x92 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .debug_line    0x0000000000000092     0x2914 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_line    0x00000000000029a6       0xe0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_line    0x0000000000002a86      0x57b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_line    0x0000000000003001      0xdea /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_line    0x0000000000003deb      0x4fc /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_info     0x0000000000000000     0x59c3
+ .debug_info    0x0000000000000000       0x26 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .debug_info    0x0000000000000026     0x3a9b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_info    0x0000000000003ac1       0xd8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_info    0x0000000000003b99      0x662 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_info    0x00000000000041fb     0x10b4 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_info    0x00000000000052af      0x714 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_abbrev   0x0000000000000000      0xea4
+ .debug_abbrev  0x0000000000000000       0x14 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .debug_abbrev  0x0000000000000014      0x5fd /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_abbrev  0x0000000000000611       0xaa /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_abbrev  0x00000000000006bb      0x252 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_abbrev  0x000000000000090d      0x3a9 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_abbrev  0x0000000000000cb6      0x1ee /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_aranges  0x0000000000000000      0x1a8
+ .debug_aranges
+                0x0000000000000000       0x20 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .debug_aranges
+                0x0000000000000020       0xa8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_aranges
+                0x00000000000000c8       0x20 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_aranges
+                0x00000000000000e8       0x30 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_aranges
+                0x0000000000000118       0x68 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_aranges
+                0x0000000000000180       0x28 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_str      0x0000000000000000    0x3ed17
+ .debug_str     0x0000000000000000       0x5d /home/potato/Slicer_Workspace2/Hardware/.tmp/ccJgQMeo.o
+ .debug_str     0x000000000000005d    0x3ea8e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+                                      0x3ed30 (size before relaxing)
+ .debug_str     0x000000000003eaeb       0x50 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+                                       0x306a (size before relaxing)
+ .debug_str     0x000000000003eb3b       0x98 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+                                       0x3d1d (size before relaxing)
+ .debug_str     0x000000000003ebd3       0xde /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+                                      0x3dfb4 (size before relaxing)
+ .debug_str     0x000000000003ecb1       0x66 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+                                       0x3d7d (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x32cc
+ .debug_loc     0x0000000000000000     0x1f96 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_loc     0x0000000000001f96       0x50 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_loc     0x0000000000001fe6      0x807 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_loc     0x00000000000027ed      0x736 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_loc     0x0000000000002f23      0x3a9 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_ranges   0x0000000000000000      0xde0
+ .debug_ranges  0x0000000000000000      0x908 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_ranges  0x0000000000000908       0x28 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_ranges  0x0000000000000930       0xe8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_ranges  0x0000000000000a18      0x2e0 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_ranges  0x0000000000000cf8       0xe8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_macro    0x0000000000000000     0xb7e3
+ .debug_macro   0x0000000000000000      0x18a /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000018a      0xa7e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000000c08       0x6b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000000c73       0x3b /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000000cae      0x34e /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000000ffc       0x2d /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001029       0x42 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000106b      0xd39 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001da4       0x12 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001db6       0x22 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001dd8       0x52 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001e2a       0x18 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001e42       0x5c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001e9e       0x35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001ed3       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000001f07      0x174 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000207b       0x16 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000002091       0x43 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x00000000000020d4       0x57 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000212b       0x34 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000215f       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000216f       0x52 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x00000000000021c1      0x182 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000002343      0x333 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000002676       0x10 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000002686       0x35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x00000000000026bb       0xde /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x0000000000002799       0xd6 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000286f     0x8c35 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000b4a4      0x118 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000b5bc       0x22 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_macro   0x000000000000b5de       0x1a /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_macro   0x000000000000b5f8       0x2d /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_macro   0x000000000000b625      0x170 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_macro   0x000000000000b795       0x32 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+ .debug_macro   0x000000000000b7c7       0x1c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o
+
+.debug_frame    0x0000000000000000      0x3d0
+ .debug_frame   0x0000000000000000      0x1d8 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccNuNmXX.o
+ .debug_frame   0x00000000000001d8       0x20 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccaeJU0P.o
+ .debug_frame   0x00000000000001f8       0x58 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccmGRfIj.o
+ .debug_frame   0x0000000000000250      0x13c /home/potato/Slicer_Workspace2/Hardware/.tmp/ccuQR1AY.o
+ .debug_frame   0x000000000000038c       0x44 /home/potato/Slicer_Workspace2/Hardware/.tmp/ccOx7BUy.o

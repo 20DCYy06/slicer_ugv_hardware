@@ -1,0 +1,13 @@
+{
+  "flash_verified": true,
+  "full_flash_sha256": "74add6535bf656e5a494b3f3776ad98f8b59c4268299836577e28cdad6f57868",
+  "backup_path": "/home/potato/Slicer_Workspace2/Hardware/Backups/board_5CF0016129_1794056115929630066",
+  "host_backup": "/home/potato/Slicer_Workspace2/Hardware/Backups/host_before_v1.1_1794056382623926405",
+  "zero_output_verified": true,
+  "zero_telemetry_samples": 26,
+  "python_tests": 22,
+  "terminal_fake_chassis_smoke": "PASS",
+  "gui_fake_chassis_smoke": "PASS",
+  "actual_drive_test_performed": false,
+  "old_workspace_unchanged": true
+}

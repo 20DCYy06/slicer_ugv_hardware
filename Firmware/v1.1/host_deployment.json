@@ -1,0 +1,33 @@
+{
+  "backup": "/home/potato/Slicer_Workspace2/Hardware/Backups/host_before_v1.1_1794056382623926405",
+  "files": {
+    "Hardware/config.yaml": {
+      "before_sha256": "1cfcaba839c5ff2111fd5db6bb94829ccca49252dfbf409e8ac6989d6bc880ce",
+      "after_sha256": "1bfc9cf05f23bd1fd4289a520aca98ae707207323f09feeb2bfe05f243c67142"
+    },
+    "Test/control_core.py": {
+      "before_sha256": "1cc63cd246dfb5d1d3eb0d8b61c74a2684272a3f388ddac51425d5d5e267137a",
+      "after_sha256": "304f912bdc113824d3f2bfb38e756e4411f3954c898d57d35947b7bb71029a59"
+    },
+    "Test/diagnose_straight.py": {
+      "before_sha256": "835b984c8895e8eaab96a05a3f18e2626f54e8b862c0536df1c6b17c0d7ad5d6",
+      "after_sha256": "2ece209ef2ef2450e769562dfd24cb7a8563e3a0d78acf8e11f998b6babb2a68"
+    },
+    "Test/tests/terminal_smoke.py": {
+      "before_sha256": "cc6d661a2b5f6187eb96b4a03a744f521bfcaa28226fd76292e72790cdb5192f",
+      "after_sha256": "a76cd995540360b116c4279c8e76c4bce7a4081b529f436c7ef1a6cfda93cca5"
+    },
+    "Test/tests/test_control.py": {
+      "before_sha256": "e489157446fb72c6d26d6f5471796b9b7399714cdc9461b577236bd441de556b",
+      "after_sha256": "693bca4fd1e270f3a182c1774790277c9ca9e14e4996d68784f5775a71be509f"
+    },
+    "Test/tests/test_terminal.py": {
+      "before_sha256": "6cdf53424c4220bf39fc47584bfa1d2dea0123def849d5a0d8c602e6f3bb3535",
+      "after_sha256": "19a3fccf0ecceae6005742f95e75f190594b347fe03b168dc1b71b8b4eb48c05"
+    },
+    "Test/tests/ui_smoke.py": {
+      "before_sha256": "025933deabb0914dca5313389217b4747242d08be9ca2b7bcdb4dfa7d621898d",
+      "after_sha256": "0a7b2b265d2028a56605154c13895579bea297c68c49cc32d33b95d9faed0195"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "raw_log": "/home/potato/Slicer_Workspace2/Test/logs/feedback_20261107T124431_528345Z.jsonl",
+  "sha256": "fb3153b7f4bbfbb201a5e8df401f737f55d0d6be519d159989c9a74405e0a456",
+  "old_encoder_signs": [
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "new_encoder_signs": [
+    1,
+    -1,
+    1,
+    -1
+  ],
+  "new_pwm_signs": [
+    1,
+    -1,
+    -1,
+    -1
+  ],
+  "pid_unchanged": true,
+  "imu_signs_unchanged": true
+}

@@ -1,0 +1,61 @@
+{
+  "completed_date": "2026-11-07",
+  "workspace": "/home/potato/Slicer_Workspace2",
+  "version": "v1.1",
+  "board_serial": "5CF0016129",
+  "wheel_diameter_mm": 65,
+  "image_bytes": 10716,
+  "image_sha256": "ed6c98371bf11022dbb64107393b8461f3f7ce7dd5f147d0c5b402e1b7481ba8",
+  "full_flash_sha256": "74add6535bf656e5a494b3f3776ad98f8b59c4268299836577e28cdad6f57868",
+  "flash_verified": true,
+  "zero_output_verified": true,
+  "zero_telemetry_samples": 26,
+  "imu_ready": true,
+  "native_wheel_checks": 7473,
+  "native_yaw_history_checks": 997,
+  "python_tests": 22,
+  "keyboard_ui_smoke": "PASS in Xvfb with fake chassis; no hardware motion",
+  "syntax_checked_files": 20,
+  "real_gamepad_identified": true,
+  "gamepad_axes": {
+    "left_y": 1,
+    "right_x": 2
+  },
+  "actual_drive_test_performed": false,
+  "old_workspace_unchanged": true,
+  "old_workspace_entries": 8614,
+  "old_workspace_git_repositories": 0,
+  "display_auth_fix": true,
+  "display_check": {
+    "forwarded": {
+      "returncode": 0,
+      "stdout": "TK_DISPLAY_CONNECTED",
+      "stderr": ""
+    },
+    "local": {
+      "returncode": 0,
+      "stdout": "TK_DISPLAY_CONNECTED",
+      "stderr": ""
+    }
+  },
+  "default_wasd_input": "SSH terminal",
+  "gamepad_angular_range": [
+    0.05,
+    0.5
+  ],
+  "gamepad_linear_range": [
+    0.1,
+    0.6
+  ],
+  "gamepad_both_directions_reversed": false,
+  "terminal_pty_smoke": "PASS, fake chassis",
+  "firmware_unchanged_during_input_fix": false,
+  "wasd_directions_reversed": false,
+  "backup_path": "/home/potato/Slicer_Workspace2/Hardware/Backups/board_5CF0016129_1794056115929630066",
+  "host_backup": "/home/potato/Slicer_Workspace2/Hardware/Backups/host_before_v1.1_1794056382623926405",
+  "terminal_fake_chassis_smoke": "PASS",
+  "gui_fake_chassis_smoke": "PASS",
+  "polarity_fix": "Paired PWM/encoder signs corrected using manual feedback; IMU and PID unchanged",
+  "feedback_yaw_correlation_before": -0.9338,
+  "feedback_yaw_correlation_after": 0.9338
+}
