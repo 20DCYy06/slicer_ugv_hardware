@@ -6,14 +6,14 @@ import shutil
 import tarfile
 import time
 
-root=Path('/home/potato/Slicer_Workspace2')
+root=Path(__file__).resolve().parents[1]
 base=root/'Hardware/Firmware/v1.2'
 new=root/'Hardware/Firmware/v1.4'
 assert not new.exists(), 'v1.4已存在，请先检查，拒绝覆盖'
 backup=root/'Hardware/Backups'/('before_pb14_'+str(time.time_ns())+'.tar.gz')
 with tarfile.open(backup,'w:gz') as archive:
-    for name in ('Test/b15_servo/keyboard.py','Test/b15_servo/README.md','Test/b15_servo/config.json',
-                 'Test/tests/combined_gamepad.py','Test/tests/test_combined_gamepad.py','Hardware/README.md'):
+    for name in ('tools/manual/b15_servo/keyboard.py','tools/manual/b15_servo/README.md','tools/manual/b15_servo/config.json',
+                 'tools/manual/combined_gamepad/combined_gamepad.py','tools/manual/combined_gamepad/test_combined_gamepad.py','Hardware/README.md'):
         archive.add(root/name,arcname=name)
 new.mkdir()
 shutil.copytree(base/'src',new/'src',ignore=shutil.ignore_patterns('build','__pycache__'))

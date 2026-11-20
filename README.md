@@ -1,6 +1,6 @@
 # Workspace2 C30D 固件与解锁
 
-本工程独立于旧工作空间；所有源码、编译产物、备份、日志均位于 `/home/potato/Slicer_Workspace2/`。旧目录仅在首次复制和隔离验收时只读访问。运行无需导入、source 或挂载旧工程。
+本工程独立于旧工作空间。以下命令从当前工作区根目录运行。独立操作入口见 [机电工具](../tools/manual/README.md)。
 
 ## 当前安装：v1.4 PB14
 
@@ -19,7 +19,7 @@
 安装记录：`Firmware/v1.2/install_record.json`；候选源码和二进制：`Firmware/v1.2/src/`及`bin/`。
 固件参数仍与v1.1一致，集中在`Firmware/v1.2/src/config.yaml`。上位机底盘配置未改。
 原v1.1/v1.0完整保留。重新编译：`./Hardware/build.sh v1.2`。
-PB15键盘程序：`./Test/run_b15_servo.sh --run`；只读查询加`--check`。
+PB15键盘程序：`./tools/manual/run_b15_servo.sh --run`；只读查询加`--check`。
 
 ## 初始基线：固件 v1.0
 
@@ -50,7 +50,6 @@ MCU保留0.8 m/s车体/轮速、3.5 rad/s角速度能力；本次两套测试程
 ## 构建与版本归档
 
 ```bash
-cd /home/potato/Slicer_Workspace2
 ./Hardware/build.sh v1.0
 ```
 
@@ -80,7 +79,6 @@ cd /home/potato/Slicer_Workspace2
 先静止、物理断开12V、Motor OFF，仅USB供电，确认新板接线版本。新板序列号为`5CF0016129`，设备自动按VID/PID/序列号查找，不依赖tty编号；不抢占已有串口进程。
 
 ```bash
-cd /home/potato/Slicer_Workspace2
 # 只备份（也会复位进入ROM，因此同样要求动力断电）
 python3 -s Hardware/Flashing/flash.py --power-off-confirmed
 # 备份并烧录v1.0；先自动双读512KiB，匹配后仅擦写sector0
@@ -94,7 +92,6 @@ ROM串口76800 8E1；DTR/RTS启动序列复用已确认C30D方案。烧录器仅
 ## 查询与解锁
 
 ```bash
-cd /home/potato/Slicer_Workspace2
 python3 -s Hardware/Unlock/unlock.py --check
 # 退出其他控制程序、停车并Motor OFF后执行
 python3 -s Hardware/Unlock/unlock.py --unlock
@@ -112,7 +109,7 @@ python3 -s Hardware/Unlock/unlock.py --unlock
 仅将当前v1.2舵机引脚由PB15/TIM12_CH2替换为PB14/TIM12_CH1。
 四轮闭环、IMU和速度参数不变，不合入独立v1.3提速候选。
 二进制：Firmware/v1.4/bin/firmware.bin；验证：Firmware/v1.4/validation.json。
-已备份上位机，旧run_b15_servo.sh与融合手柄入口均兼容能力查询，新别名Test/run_b14_servo.sh。
+`./tools/manual/run_b14_servo.sh`、`./tools/manual/run_b15_servo.sh` 和融合手柄均查询固件能力来识别当前引脚。
 断开动力12V、Motor OFF、仅USB并确认后，使用基线核验烧录器：
 `python3 -s Hardware/Flashing/flash_v1_4_verified.py --power-off-confirmed`
 烧录器双备份并要求现板仍为v1.2，否则拒绝擦写。刷后应查询到B14P/pin14。
