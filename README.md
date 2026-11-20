@@ -1,6 +1,12 @@
-# Workspace2 C30D 固件与解锁
+# Slicer UGV 硬件
 
-本工程独立于旧工作空间。以下命令从当前工作区根目录运行。独立操作入口见 [机电工具](../tools/manual/README.md)。
+本仓维护 C30D 固件、SLC2 协议、主机串口驱动、设备配置、查询与解锁工具。整车仓库 [slicer-ugv](https://github.com/20DCYy06/slicer-ugv) 把本仓的固定提交检出到 `Hardware/`，ROS 控制和机电操作入口随整车维护。
+
+以下命令从本仓根目录执行。通过整车仓库使用时，先 `cd Hardware`。在硬件仓库根目录编写改动、运行离线检查和提交 PR 后，由整车 PR 更新固定提交。开发规则见 [AGENTS.md](AGENTS.md)。
+
+初始历史从整车迁移候选 `2bcf51594fd01add6a98d710264c41ce1795b674` 的 `Hardware/` 提取。导入提交 `ef7135c` 的文件树与原目录完全一致。下列安装状态为留存记录，现场需核对当前实际板号和版本。
+
+`prepare_pb14.py` 是从原整车检出生成 v1.4 的历史脚本，读取整车 `tools/manual/`，现有 v1.4 源码已保留。
 
 ## 当前安装：v1.4 PB14
 
@@ -18,8 +24,8 @@
 只读PB15能力查询及USB供电四路零PWM/零CCR、IMU就绪验收通过；未运行舵机、未实车行驶。
 安装记录：`Firmware/v1.2/install_record.json`；候选源码和二进制：`Firmware/v1.2/src/`及`bin/`。
 固件参数仍与v1.1一致，集中在`Firmware/v1.2/src/config.yaml`。上位机底盘配置未改。
-原v1.1/v1.0完整保留。重新编译：`./Hardware/build.sh v1.2`。
-PB15键盘程序：`./tools/manual/run_b15_servo.sh --run`；只读查询加`--check`。
+原v1.1/v1.0完整保留。重新编译：`./build.sh v1.2`。
+PB15键盘程序：整车仓库的 `./tools/manual/run_b15_servo.sh --run`；只读查询加`--check`。
 
 ## 初始基线：固件 v1.0
 
@@ -29,7 +35,7 @@ PB15键盘程序：`./tools/manual/run_b15_servo.sh --run`；只读查询加`--c
 
 当前几何：轮径 **65 mm（用户实测确认）**，轮距150 mm、轴距170 mm，60000 counts/rev。轮距、轴距、CPR沿用现场旧配置，换机械结构后应再测。引脚与电气方向继承现有 C30D 实现。
 
-固件参数集中在 `Firmware/v1.0/src/config.yaml`；上位机设备身份、按键档位和轴绑定在 `Hardware/config.yaml`。更改固件配置后必须重编译并重新烧录；上位机配置在下次程序启动时读取。
+固件参数集中在 `Firmware/v1.0/src/config.yaml`；上位机设备身份、按键档位和轴绑定在 `config.yaml`。更改固件配置后必须重编译并重新烧录；上位机配置在下次程序启动时读取。
 
 | 参数 | 只读参考中的当前值 | v1.0 |
 |---|---:|---:|
@@ -50,7 +56,7 @@ MCU保留0.8 m/s车体/轮速、3.5 rad/s角速度能力；本次两套测试程
 ## 构建与版本归档
 
 ```bash
-./Hardware/build.sh v1.0
+./build.sh v1.0
 ```
 
 只使用已有 gcc、arm-none-eabi-gcc、Python3和PyYAML。脚本运行实际C模块的离线测试及协议测试，然后生成 `Firmware/v1.0/bin/firmware.bin/.hex/.elf/.map` 和manifest。源码保存在同版本的src目录。后续修改先复制为v1.1再改，保留已验收版本。
@@ -80,24 +86,24 @@ MCU保留0.8 m/s车体/轮速、3.5 rad/s角速度能力；本次两套测试程
 
 ```bash
 # 只备份（也会复位进入ROM，因此同样要求动力断电）
-python3 -s Hardware/Flashing/flash.py --power-off-confirmed
+python3 -s Flashing/flash.py --power-off-confirmed
 # 备份并烧录v1.0；先自动双读512KiB，匹配后仅擦写sector0
-python3 -s Hardware/Flashing/flash.py --version v1.0 --flash --power-off-confirmed
+python3 -s Flashing/flash.py --version v1.0 --flash --power-off-confirmed
 # USB供电验收：只发全零速度和查询
-python3 -s Hardware/zero_check.py
+python3 -s zero_check.py
 ```
 
-ROM串口76800 8E1；DTR/RTS启动序列复用已确认C30D方案。烧录器仅允许读、write-memory和sector0扩展擦除，禁止全片擦除、解除保护、写选项字节、RAM loader、GO跳转。应用写入地址0x08000000。完整双备份和整片写后读回位于`Hardware/Backups/`，摘要在`last_install.json`。仅`verified=true`才代表烧录通过；编译manifest的flashed=false是编译阶段字段，不替代安装记录。
+ROM串口76800 8E1；DTR/RTS启动序列复用已确认C30D方案。烧录器仅允许读、write-memory和sector0扩展擦除，禁止全片擦除、解除保护、写选项字节、RAM loader、GO跳转。应用写入地址0x08000000。完整双备份和整片写后读回位于`Backups/`，摘要在`last_install.json`。仅`verified=true`才代表烧录通过；编译manifest的flashed=false是编译阶段字段，不替代安装记录。
 
 ## 查询与解锁
 
 ```bash
-python3 -s Hardware/Unlock/unlock.py --check
+python3 -s Unlock/unlock.py --check
 # 退出其他控制程序、停车并Motor OFF后执行
-python3 -s Hardware/Unlock/unlock.py --unlock
+python3 -s Unlock/unlock.py --unlock
 ```
 
-`--check`只接收状态，无串口下行命令，不会先清掉故障证据。`--unlock`检查Motor OFF和零PWM后，复用HELLO清软件故障、配置极性并验证状态；不恢复旧目标、不发非零速度、不绕过物理Motor输入。完成后现场人员再开Motor并启动控制程序。退出码0成功、2查询到故障锁存、3通信/状态失败。日志全部在`Hardware/Logs/`。
+`--check`只接收状态，无串口下行命令，不会先清掉故障证据。`--unlock`检查Motor OFF和零PWM后，复用HELLO清软件故障、配置极性并验证状态；不恢复旧目标、不发非零速度、不绕过物理Motor输入。完成后现场人员再开Motor并启动控制程序。退出码0成功、2查询到故障锁存、3通信/状态失败。日志全部在`Logs/`。
 
 ## 验证范围与隔离
 
@@ -109,7 +115,7 @@ python3 -s Hardware/Unlock/unlock.py --unlock
 仅将当前v1.2舵机引脚由PB15/TIM12_CH2替换为PB14/TIM12_CH1。
 四轮闭环、IMU和速度参数不变，不合入独立v1.3提速候选。
 二进制：Firmware/v1.4/bin/firmware.bin；验证：Firmware/v1.4/validation.json。
-`./tools/manual/run_b14_servo.sh`、`./tools/manual/run_b15_servo.sh` 和融合手柄均查询固件能力来识别当前引脚。
+整车仓库的 `./tools/manual/run_b14_servo.sh`、`./tools/manual/run_b15_servo.sh` 和融合手柄均查询固件能力来识别当前引脚。
 断开动力12V、Motor OFF、仅USB并确认后，使用基线核验烧录器：
-`python3 -s Hardware/Flashing/flash_v1_4_verified.py --power-off-confirmed`
+`python3 -s Flashing/flash_v1_4_verified.py --power-off-confirmed`
 烧录器双备份并要求现板仍为v1.2，否则拒绝擦写。刷后应查询到B14P/pin14。

@@ -4,8 +4,8 @@ from pathlib import Path
 import yaml
 from protocol import Parser,packet
 from transport import Link,identity
-ROOT=Path(__file__).resolve().parents[2]
-CONFIG=ROOT/'Hardware/config.yaml'
+ROOT=Path(__file__).resolve().parents[1]
+CONFIG=ROOT/'config.yaml'
 
 def load_config(path=CONFIG):
     return yaml.safe_load(Path(path).read_text())
@@ -83,7 +83,7 @@ class Chassis:
     def healthy(self):
         self.poll(0.)
         if time.monotonic()-self.last_rx>self.config['control']['telemetry_timeout_s']:raise RuntimeError('底盘遥测丢失')
-        if self.state and self.state['fault_latched']:raise RuntimeError('MCU故障，先Motor OFF后使用Hardware/Unlock/unlock.py --unlock')
+        if self.state and self.state['fault_latched']:raise RuntimeError('MCU故障，先Motor OFF后使用硬件仓库的 Unlock/unlock.py --unlock')
     def close(self):
         if self.link.fd is None:return
         try:
@@ -115,5 +115,5 @@ class Slew:
         return self.v,self.w
 
 def save_log(name,record):
-    folder=ROOT/'Hardware/Logs';folder.mkdir(exist_ok=True)
+    folder=ROOT/'Logs';folder.mkdir(exist_ok=True)
     path=folder/(name+'_'+str(time.time_ns())+'.json');path.write_text(json.dumps(record,ensure_ascii=False,indent=2));print('记录：',path)

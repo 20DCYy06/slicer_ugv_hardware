@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""只在Workspace2中备份、归档和烧录。仅允许sector0，不实现解除保护/选项写入。"""
+"""备份、归档和烧录 C30D。仅允许 sector 0。"""
 import argparse,json,hashlib,os,re,sys,time
 from pathlib import Path
 sys.dont_write_bytecode=True
-HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[1]
-sys.path[:0]=[str(HERE/'vendor'),str(ROOT/'Hardware/Host')]
+HERE=Path(__file__).resolve().parent;ROOT=HERE.parent
+sys.path[:0]=[str(HERE/'vendor'),str(ROOT/'Host')]
 from stm32_flash_verified import SectorZeroROM,read_flash
 from chassis import load_config,device
 BASE=0x08000000;SIZE=512*1024;SECTOR=16*1024
@@ -15,10 +15,10 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--version',default='v1.0');p.add_argument('--flash',action='store_true');p.add_argument('--power-off-confirmed',action='store_true');a=p.parse_args()
     if not a.power_off_confirmed:p.error('需要确认12V物理断开、Motor OFF、仅USB供电')
     if not re.fullmatch(r'v\d+\.\d+(?:\.\d+)?',a.version):p.error('版本格式应为v1.0或v1.0.1')
-    version=ROOT/'Hardware/Firmware'/a.version;binary=(version/'src/build/c30d_body.bin').read_bytes();meta=json.loads((version/'src/build/manifest.json').read_text())
+    version=ROOT/'Firmware'/a.version;binary=(version/'src/build/c30d_body.bin').read_bytes();meta=json.loads((version/'src/build/manifest.json').read_text())
     if meta['part']!='STM32F407VET6' or meta['sectors_changed']!=[0] or sha(binary)!=meta['sha256'] or len(binary)!=meta['size'] or not 8<=len(binary)<=SECTOR or len(binary)%4:raise ValueError('固件manifest/大小不匹配')
     cfg=load_config();port,expected=device(cfg)
-    folder=ROOT/'Hardware/Backups'/('board_'+expected[2]+'_'+str(time.time_ns()));folder.mkdir()
+    folder=ROOT/'Backups'/('board_'+expected[2]+'_'+str(time.time_ns()));folder.mkdir()
     log={'version':a.version,'usb_serial':expected[2],'device':port,'verified':False,'erased':False,'option_bytes_written':False,'image_sha256':sha(binary)}
     rom=None
     try:
@@ -45,5 +45,5 @@ def main():
     except BaseException as e:log['error']=repr(e);raise
     finally:
         if rom:log['rom_commands']=sorted(set(hex(c) for c in rom.log));rom.close()
-        save(folder/'install.json',log);(ROOT/'Hardware/last_install.json').write_text(json.dumps({'directory':str(folder),**log},indent=2));print('LOG',folder,flush=True)
+        save(folder/'install.json',log);(ROOT/'last_install.json').write_text(json.dumps({'directory':str(folder),**log},indent=2));print('LOG',folder,flush=True)
 if __name__=='__main__':main()
