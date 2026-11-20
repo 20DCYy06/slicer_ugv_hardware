@@ -1,0 +1,22 @@
+{
+  "version": "v1.4",
+  "base": "v1.2",
+  "servo_pin": 14,
+  "timer": "TIM12_CH1",
+  "af": 9,
+  "frequency_hz": 50,
+  "flashed": true,
+  "native_servo_channel_and_limits_pass": true,
+  "wheel_regression_identical": true,
+  "wheel_regression_sha256": "88a96d82f0711a7b0f8ded2c544fa9ed3f51b59dab065ef963730d2ea320c31b",
+  "host_tests": 10,
+  "firmware_sha256": "b88a173597c584d6a40eff88c59bd1fba4cf7033f516cfdcf3e64fa431e29056",
+  "real_motion_tested": false,
+  "full_flash_verified": true,
+  "options_unchanged": true,
+  "capability_readonly_pin": 14,
+  "zero_check_pass": true,
+  "zero_check_log": "Hardware/Logs/zero_check_1795099530948390276.json",
+  "actual_servo_motion_tested": false,
+  "install_backup": "/home/potato/Slicer_Workspace2/Hardware/Backups/board_5CF0016129_1795099248164005431"
+}

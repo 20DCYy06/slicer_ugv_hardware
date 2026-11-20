@@ -1,0 +1,12 @@
+{
+  "buttons": {
+    "clockwise": 0,
+    "counterclockwise": 2,
+    "suction": 3,
+    "release": 1
+  },
+  "servo_refresh_hz": 20,
+  "hardware_config": "combined_hardware.yaml",
+  "servo_config": "../b15_servo/config.json",
+  "airgrip_config": "../airgrip/config.json"
+}

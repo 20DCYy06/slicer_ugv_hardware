@@ -2,13 +2,24 @@
 
 本工程独立于旧工作空间；所有源码、编译产物、备份、日志均位于 `/home/potato/Slicer_Workspace2/`。旧目录仅在首次复制和隔离验收时只读访问。运行无需导入、source 或挂载旧工程。
 
-## 当前安装：v1.1
+## 当前安装：v1.4 PB14
 
-已根据实际手推数据校正车体坐标：向车头滚动为正vx，逆时针为正wz。电机输出与编码器符号成对反转，PID、IMU方向和控制算法保持不变。配套上位机配置已经同步；不要单独使用旧配置覆盖0x12极性。详细依据见 `Firmware/v1.1/README.md`，安装校验见 `Firmware/v1.1/install_record.json`。
+舵机已由PB15/TIM12_CH2切换至PB14/TIM12_CH1，其他底盘参数沿用v1.2。
+原板双份512KiB备份一致，基线匹配后仅写sector0，整片读回及选项字节校验通过。
+实机能力回复PB14，零速验收：24帧，IMU ready、四轮PWM=0、CCR=0、输出上限80%。
+固件、安装记录与验证结果均在Firmware/v1.4/，原v1.2与v1.3候选保留。
+未运行舵机和底盘运动。改接信号线前请断开舵机电源，PB15信号线移到PB14。
 
-当前固件参数在 `Firmware/v1.1/src/config.yaml`，对应二进制在 `Firmware/v1.1/bin/`。v1.0完整保留用于历史对照；下面v1.0部分记录最初开发基线。重编译当前版使用 `./Hardware/build.sh v1.1`；刷写当前版使用 `python3 -s Hardware/Flashing/flash.py --version v1.1 --flash --power-off-confirmed`。
+## 历史安装：v1.2
 
-v1.1已通过全512KiB读回、选项字节不变验证及USB零速验收（26帧、IMU就绪、PWM和CCR全零、无故障）；没有执行实车带动力行驶测试。
+新增PB15/TIM12_CH2连续舵机输出；四路电机的PID、IMU、控制参数、引脚和既有协议沿用v1.1，未调整。
+已完成16360行直行/转向/换向控制轨迹逐字节回归一致性，以及舵机命令不改变运行中四轮PWM/目标/积分的离线测试。
+本次刷写前双读512KiB并确认原板为v1.1基线，保留完整备份；仅改sector0，写后整片512KiB与选项字节校验通过。
+只读PB15能力查询及USB供电四路零PWM/零CCR、IMU就绪验收通过；未运行舵机、未实车行驶。
+安装记录：`Firmware/v1.2/install_record.json`；候选源码和二进制：`Firmware/v1.2/src/`及`bin/`。
+固件参数仍与v1.1一致，集中在`Firmware/v1.2/src/config.yaml`。上位机底盘配置未改。
+原v1.1/v1.0完整保留。重新编译：`./Hardware/build.sh v1.2`。
+PB15键盘程序：`./Test/run_b15_servo.sh --run`；只读查询加`--check`。
 
 ## 初始基线：固件 v1.0
 
@@ -96,3 +107,12 @@ python3 -s Hardware/Unlock/unlock.py --unlock
 已做无硬件控制/协议/输入测试、ARM构建；实际烧录及零输出验收见交付记录。没有替用户执行实车运动测试。
 
 `Hardware/Audit/old_workspace_before_20261107.json`记录旧树8614项mode/size/mtime/ctime/链接目标，验收对照由`isolation_report.json`给出。旧工作空间及其子目录本次未发现Git仓库，不能伪称git clean；采用文件系统元数据与参考源码SHA256核验。读取可能按文件系统策略更新访问时间atime，不修改内容、mtime或ctime。
+
+## PB14 v1.4（已安装）
+仅将当前v1.2舵机引脚由PB15/TIM12_CH2替换为PB14/TIM12_CH1。
+四轮闭环、IMU和速度参数不变，不合入独立v1.3提速候选。
+二进制：Firmware/v1.4/bin/firmware.bin；验证：Firmware/v1.4/validation.json。
+已备份上位机，旧run_b15_servo.sh与融合手柄入口均兼容能力查询，新别名Test/run_b14_servo.sh。
+断开动力12V、Motor OFF、仅USB并确认后，使用基线核验烧录器：
+`python3 -s Hardware/Flashing/flash_v1_4_verified.py --power-off-confirmed`
+烧录器双备份并要求现板仍为v1.2，否则拒绝擦写。刷后应查询到B14P/pin14。

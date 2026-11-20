@@ -1,0 +1,46 @@
+serial:
+  port: auto
+  vid: 1a86
+  pid: 55d4
+  serial_number: 5CF0016129
+  baud: 115200
+  counts_per_revolution: 60000
+  pwm_signs:
+  - 1
+  - -1
+  - -1
+  - -1
+  encoder_signs:
+  - 1
+  - -1
+  - 1
+  - -1
+control:
+  publish_hz: 50
+  telemetry_timeout_s: 1.0
+  linear_acceleration: 0.5
+  angular_acceleration: 1.5
+  motor_output_limit_percent: 100
+speed:
+  linear_min: 0.1
+  linear_max: 1.0
+  linear_step: 0.05
+  angular_min: 0.1
+  angular_max: 1.0
+  angular_step: 0.1
+gamepad:
+  device: /dev/input/js0
+  throttle_axis: 1
+  steering_axis: 2
+  dead_zone: 0.1
+  up_button: 7
+  down_button: 6
+  stop_button: 1
+  throttle_sign: -1
+  steering_sign: -1
+  angular_speed:
+    min: 0.05
+    max: 0.5
+    step: 0.05
+keyboard:
+  repeat_timeout_s: 0.6
