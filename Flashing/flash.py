@@ -18,7 +18,7 @@ def main():
     version=ROOT/'Firmware'/a.version;binary=(version/'src/build/c30d_body.bin').read_bytes();meta=json.loads((version/'src/build/manifest.json').read_text())
     if meta['part']!='STM32F407VET6' or meta['sectors_changed']!=[0] or sha(binary)!=meta['sha256'] or len(binary)!=meta['size'] or not 8<=len(binary)<=SECTOR or len(binary)%4:raise ValueError('固件manifest/大小不匹配')
     cfg=load_config();port,expected=device(cfg)
-    folder=ROOT/'Backups'/('board_'+expected[2]+'_'+str(time.time_ns()));folder.mkdir()
+    folder=ROOT/'Backups'/('board_'+expected[2]+'_'+str(time.time_ns()));folder.mkdir(parents=True)
     log={'version':a.version,'usb_serial':expected[2],'device':port,'verified':False,'erased':False,'option_bytes_written':False,'image_sha256':sha(binary)}
     rom=None
     try:
