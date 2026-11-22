@@ -26,12 +26,12 @@ def device(config):
 
 def status(data):
     v=struct.unpack('<II4iBH4i4h4hH',data);f=v[6]
-    return dict(flags=f,fault_latched=bool(f&4),configured=bool(f&8),motor_enabled=bool(f&16),
+    return dict(tick=v[0],ack=v[7],flags=f,fault_latched=bool(f&4),configured=bool(f&8),motor_enabled=bool(f&16),
         motor_power_present=bool(f&32),wheel_mm_s=list(v[12:16]),pwm_ticks=list(v[16:20]),battery_v=v[20]/1000)
 
 def body_status(data):
     v=struct.unpack('<4BI4h4h3h3h3h3h4h4H',data)
-    return dict(imu_flags=v[1],who=v[2],source=v[3],delta_raw_abcd=list(v[5:9]),
+    return dict(imu_flags=v[1],who=v[2],source=v[3],tick=v[4],delta_raw_abcd=list(v[5:9]),
         vx=v[25]/1000,wz=v[26]/1000,target_vx=v[27]/1000,target_wz=v[28]/1000,
         status=v[30],imu_age_ms=v[31])
 
@@ -40,14 +40,18 @@ class Chassis:
         self.config=config;self.path,expected=device(config)
         self.link=Link(self.path,expected,restore_on_close=False)
         self.parser=Parser();self.seq=0;self.nonce=secrets.randbits(32)
-        self.last_rx=0.;self.state=None;self.body=None;self.replies={};self.opened_session=False
+        self.last_rx=0.;self.last_body_rx=0.;self.state=None;self.body=None;self.replies={};self.opened_session=False
     def poll(self,timeout=0.):
         if not select.select([self.link.fd],[],[],timeout)[0]:return
         raw=os.read(self.link.fd,4096)
         if not raw:raise RuntimeError('底盘USB已断开')
         for kind,seq,data in self.parser.feed(raw):
             if kind==0x90 and len(data)==61:self.state=status(data);self.last_rx=time.monotonic()
-            elif kind==0x93 and len(data)==64:self.body=body_status(data)
+            elif kind==0x93 and len(data)==64 and data[0]==1:
+                sample=body_status(data)
+                if self.body is None or 0 < ((sample['tick']-self.body['tick']) & 0xffffffff) < 0x80000000:
+                    self.last_body_rx=time.monotonic()
+                    self.body=sample
             else:self.replies[kind]=data
     def wait(self,predicate,timeout=3.):
         end=time.monotonic()+timeout
@@ -56,9 +60,11 @@ class Chassis:
             self.poll(.05)
     def send(self,kind,payload=b''):
         self.seq=(self.seq+1)&65535;self.link.send(packet(kind,self.seq,payload))
+        return self.seq
     def read_state(self):
         self.wait(lambda:self.state is not None);return self.state
     def connect(self):
+        previous_wheel_rx,previous_body=self.last_rx,self.body
         self.opened_session=True
         self.send(1,struct.pack('<I',self.nonce));self.wait(lambda:0x81 in self.replies)
         expected=(b'SLC2',2,4,self.config['serial']['counts_per_revolution'],500,self.nonce)
@@ -72,9 +78,24 @@ class Chassis:
         percent=self.config['control']['motor_output_limit_percent']
         self.send(0x18,struct.pack('<IB',self.nonce,percent));self.wait(lambda:0x85 in self.replies)
         n,p,maximum,period,ticks=struct.unpack('<IBHHH',self.replies[0x85])
-        if (n,p,maximum,period,ticks)!=(self.nonce,percent,800,1600,1280*percent//100):raise RuntimeError('新固件80%输出上限未确认')
-        self.wait(lambda:self.body is not None and self.body['imu_flags']&7==7,10.)
-        print('[CONNECTED]',self.path,'0x16 vx/wz, PWM cap=80%, watchdog=500ms',flush=True)
+        expected_cap=self.config['control'].get('mcu_pwm_accept_max_permille',800)
+        expected_ticks=(1600*expected_cap//1000)*percent//100
+        if (n,p,maximum,period,ticks)!=(self.nonce,percent,expected_cap,1600,expected_ticks):
+            raise RuntimeError('底盘固件输出上限不匹配: expected %d‰, received %d‰' % (expected_cap,maximum))
+        timeout=self.config['control']['telemetry_timeout_s']
+
+        def telemetry_ready():
+            return (
+                self.state is not None
+                and self.last_rx > previous_wheel_rx
+                and time.monotonic()-self.last_rx <= timeout
+                and self.body is not None
+                and self.body is not previous_body
+                and self.body['imu_flags']&7==7
+            )
+
+        self.wait(telemetry_ready,10.)
+        print('[CONNECTED]',self.path,'0x16 vx/wz, PWM cap=%.3f%%, watchdog=500ms'%(100*ticks/period),flush=True)
     def speed(self,v,w):
         if not math.isfinite(v) or not math.isfinite(w):raise ValueError('速度不是有限值')
         s=self.config['speed']

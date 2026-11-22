@@ -1,26 +1,5 @@
 {
-  "directory": "/home/potato/Slicer_Workspace2/Hardware/Backups/board_5CF0016129_1795099248164005431",
-  "version": "v1.4",
-  "usb_serial": "5CF0016129",
-  "device": "/dev/ttyCH343USB1",
-  "verified": true,
-  "erased": true,
-  "option_bytes_written": false,
-  "image_sha256": "b88a173597c584d6a40eff88c59bd1fba4cf7033f516cfdcf3e64fa431e29056",
-  "before_sha256": "1ff78fa1117b6c2f0aed6fd13bb239dea47f4089ed39ca484f191aad9eeff599",
-  "backup_verified": true,
-  "expected_sha256": "49dc6bd311445e7ab6cf5b63c4a3ee34ab1862186e633b3016dbe26db120ab8b",
-  "erase_started": true,
-  "sectors_changed": [
-    0
-  ],
-  "readback_sha256": "49dc6bd311445e7ab6cf5b63c4a3ee34ab1862186e633b3016dbe26db120ab8b",
-  "options_unchanged": true,
-  "rom_commands": [
-    "0x0",
-    "0x11",
-    "0x2",
-    "0x31",
-    "0x44"
-  ]
+  "version": "v1.7",
+  "image_sha256": "4e9bcafeab040d7f1bd0ad8758948bc180e1c231afa247f8c492fd8a21e4431a",
+  "record_type": "release_reference"
 }
