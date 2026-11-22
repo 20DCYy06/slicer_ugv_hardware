@@ -20,7 +20,8 @@ try:
     if any(registers[4:12]):raise RuntimeError('CCR输出非零')
     if len(samples)<15 or not car.body or car.body['imu_flags']&7!=7 or car.body['target_vx'] or car.body['target_wz']:raise RuntimeError('遥测/IMU/目标状态未通过')
     record.update(verified=True,samples=samples,body=car.body,ccr=list(registers[4:12]),output_cap=list(struct.unpack('<IBHHH',car.replies[0x85])[1:]))
-    print('ZERO_CHECK_PASS samples=%d IMU=ready PWM=0 CCR=0 cap=80%%'%len(samples),flush=True)
+    print('ZERO_CHECK_PASS samples=%d IMU=ready PWM=0 CCR=0 cap=%.1f%%' %
+          (len(samples), record['output_cap'][1]/10),flush=True)
 except BaseException as e:record['error']=repr(e);raise
 finally:
     if car:car.close()

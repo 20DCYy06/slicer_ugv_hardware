@@ -1,0 +1,557 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+body                0x30              /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+imu                 0x38              /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .comment       0x0000000000000000       0x5a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_macro   0x0000000000000000      0xaae /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_macro   0x0000000000000000      0x174 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .comment       0x0000000000000000       0x5a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000      0xaae /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000       0x56 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000       0x51 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000      0x103 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000       0x6a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000      0x1df /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x0000000000000000      0x11e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .comment       0x0000000000000000       0x5a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0xaae /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x56 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x51 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x103 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x6a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x1df /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x11e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x6b /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x3b /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x2d /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x42 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0xd39 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x12 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x58 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x18 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x174 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x16 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x43 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x52 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x182 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000      0x339 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0x35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0xde /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000       0xd6 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x0000000000000000     0x8c35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .comment       0x0000000000000000       0x5a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .group         0x0000000000000000        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .text          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .data          0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .bss           0x0000000000000000        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000      0xaae /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000       0x56 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000       0x51 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000      0x103 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000       0x6a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000      0x1df /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x0000000000000000      0x11e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .comment       0x0000000000000000       0x5a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000080000 xr
+RAM              0x0000000020000000 0x0000000000020000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+LOAD /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+LOAD /tmp/slicer-c30d-arm-toolchain/root/usr/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/libgcc.a
+                0x0000000020020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x0000000008000000      0x188
+ *(.isr_vector)
+ .isr_vector    0x0000000008000000      0x188 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+                0x0000000008000000                vectors
+
+.text           0x0000000008000188     0x2cd8
+ *(.text*)
+ .text.Reset_Handler
+                0x0000000008000188       0x58 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+                0x0000000008000188                Reset_Handler
+ .text.p32      0x00000000080001e0       0x12 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.crc      0x00000000080001f2       0x32 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.latch_fault
+                0x0000000008000224      0x120 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.clear_fault
+                0x0000000008000344       0x7c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.receive  0x00000000080003c0       0x94 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.emit     0x0000000008000454       0x98 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.enabled  0x00000000080004ec       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.pwm_init
+                0x00000000080004fc       0x68 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.pwm      0x0000000008000564       0x70 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.zero     0x00000000080005d4       0x50 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.stop     0x0000000008000624       0x6c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.pin      0x0000000008000690       0x5c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.recovery_still
+                0x00000000080006ec       0xcc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.rd32.constprop.0
+                0x00000000080007b8       0x1c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .text.SysTick_Handler
+                0x00000000080007d4       0x18 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x00000000080007d4                SysTick_Handler
+ .text.Default_Handler
+                0x00000000080007ec       0x30 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x00000000080007ec                Default_Handler
+ .text.USART2_IRQHandler
+                0x000000000800081c        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x000000000800081c                USART2_IRQHandler
+ .text.USART1_IRQHandler
+                0x0000000008000828        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x0000000008000828                USART1_IRQHandler
+ .text.USART3_IRQHandler
+                0x0000000008000834        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x0000000008000834                USART3_IRQHandler
+ .text.startup.main
+                0x0000000008000840     0x1a88 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x0000000008000840                main
+ .text.memset   0x00000000080022c8       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+                0x00000000080022c8                memset
+ .text.pid.constprop.0
+                0x00000000080022d8       0xc8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .text.body_reset
+                0x00000000080023a0       0x1c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+                0x00000000080023a0                body_reset
+ .text.body_update
+                0x00000000080023bc      0x2d4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+                0x00000000080023bc                body_update
+ .text.delay_us
+                0x0000000008002690       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ *fill*         0x00000000080026b2        0x2 
+ .text.scl_high
+                0x00000000080026b4       0x28 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.finish   0x00000000080026dc       0x24 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.start    0x0000000008002700       0x2c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.write_byte
+                0x000000000800272c       0x6c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.reg_write
+                0x0000000008002798       0x38 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.reg_read
+                0x00000000080027d0       0xd0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .text.icm20948_init
+                0x00000000080028a0      0x17c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                0x00000000080028a0                icm20948_init
+ .text.icm20948_sample
+                0x0000000008002a1c      0x260 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                0x0000000008002a1c                icm20948_sample
+ .text.icm20948_ready
+                0x0000000008002c7c       0x24 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                0x0000000008002c7c                icm20948_ready
+ .text.body_decode_command
+                0x0000000008002ca0       0x60 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+                0x0000000008002ca0                body_decode_command
+ .text.body_pack_telemetry
+                0x0000000008002d00      0x10a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+                0x0000000008002d00                body_pack_telemetry
+ *(.rodata*)
+ *fill*         0x0000000008002e0a        0x2 
+ .rodata        0x0000000008002e0c       0x28 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .rodata.enc    0x0000000008002e34       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .rodata        0x0000000008002e44       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .rodata        0x0000000008002e54        0xc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                0x0000000008002e60                . = ALIGN (0x4)
+
+.glue_7         0x0000000008002e60        0x0
+ .glue_7        0x0000000008002e60        0x0 linker stubs
+
+.glue_7t        0x0000000008002e60        0x0
+ .glue_7t       0x0000000008002e60        0x0 linker stubs
+
+.vfp11_veneer   0x0000000008002e60        0x0
+ .vfp11_veneer  0x0000000008002e60        0x0 linker stubs
+
+.v4_bx          0x0000000008002e60        0x0
+ .v4_bx         0x0000000008002e60        0x0 linker stubs
+
+.iplt           0x0000000008002e60        0x0
+ .iplt          0x0000000008002e60        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+
+.rel.dyn        0x0000000008002e60        0x0
+ .rel.iplt      0x0000000008002e60        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+
+.ARM.exidx
+ *(.ARM.exidx*)
+                0x0000000008002e60                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x4 load address 0x0000000008002e60
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _sdata = .
+ *(.data*)
+ .data.cal_index
+                0x0000000020000000        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000001        0x1 
+ .data.output_pwm_cap
+                0x0000000020000002        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _edata = .
+
+.igot.plt       0x0000000020000004        0x0 load address 0x0000000008002e64
+ .igot.plt      0x0000000020000004        0x0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+
+.bss            0x0000000020000004      0x5e0 load address 0x0000000008002e64
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _sbss = .
+ *(.bss*)
+ .bss.ack_seq   0x0000000020000004        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.active_source
+                0x0000000020000006        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000007        0x1 
+ .bss.actual    0x0000000020000008        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.battery_mv
+                0x0000000020000010        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000012        0x2 
+ .bss.cal_end   0x0000000020000014        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.configured
+                0x0000000020000018        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000019        0x3 
+ .bss.control_interval_ms
+                0x000000002000001c        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.cycle_delta
+                0x0000000020000020        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.direct_mode
+                0x0000000020000028        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000029        0x1 
+ .bss.direct_pwm
+                0x000000002000002a        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.duty      0x0000000020000032        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.enc_sign  0x000000002000003a        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault     0x000000002000003e        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x000000002000003f        0x1 
+ .bss.fault_command
+                0x0000000020000040        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault_delta
+                0x0000000020000048        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault_inputs
+                0x0000000020000050        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000051        0x3 
+ .bss.fault_interval
+                0x0000000020000054        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault_mode
+                0x0000000020000058        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000059        0x3 
+ .bss.fault_ms  0x000000002000005c        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault_pwm
+                0x0000000020000060        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.fault_source
+                0x0000000020000068        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000069        0x3 
+ .bss.fault_uart_sr
+                0x000000002000006c        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.filtered  0x0000000020000070       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.first_fault
+                0x0000000020000080        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.frame     0x0000000020000081       0x49 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.have_command
+                0x00000000200000ca        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.hello_ok  0x00000000200000cb        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.integral  0x00000000200000cc       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.last_command
+                0x00000000200000dc        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.last_control
+                0x00000000200000e0        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.last_report
+                0x00000000200000e4        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.ms        0x00000000200000e8        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.navigation_recovery
+                0x00000000200000ec        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x00000000200000ed        0x3 
+ .bss.nonce     0x00000000200000f0        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.opposite  0x00000000200000f4        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.previous  0x00000000200000fc        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.previous_target
+                0x0000000020000104        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.pwm_sign  0x000000002000010c        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.raw_total
+                0x0000000020000110       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.recovery_still_cycles
+                0x0000000020000120        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000121        0x1 
+ .bss.rr        0x0000000020000122        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.rw        0x0000000020000124        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.rx        0x0000000020000126      0x200 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.seq       0x0000000020000326        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.serial_resync
+                0x0000000020000328        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000329        0x3 
+ .bss.servo_last_ms
+                0x000000002000032c        0x4 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.servo_started
+                0x0000000020000330        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000331        0x3 
+ .bss.sources   0x0000000020000334       0x20 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.stalled   0x0000000020000354        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.sum_counts
+                0x000000002000035c       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.targets   0x000000002000036c        0x8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.test_blocked
+                0x0000000020000374        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.tx        0x0000000020000375      0x200 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *fill*         0x0000000020000575        0x1 
+ .bss.tx_read   0x0000000020000576        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.tx_write  0x0000000020000578        0x2 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .bss.used      0x000000002000057a        0x1 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ *(COMMON)
+ *fill*         0x000000002000057b        0x1 
+ COMMON         0x000000002000057c       0x30 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+                0x000000002000057c                body
+ COMMON         0x00000000200005ac       0x38 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                0x00000000200005ac                imu
+                0x00000000200005e4                . = ALIGN (0x4)
+                0x00000000200005e4                _ebss = .
+
+/DISCARD/
+ *(.comment*)
+ *(.note*)
+                0x0000000000000001                ASSERT ((_ebss < (_estack - 0x2000)), RAM/stack overflow)
+                0x0000000000000001                ASSERT ((_ebss < 0x2001d000), Persistent boot trace overlaps BSS)
+OUTPUT(/tmp/slicer-c30d-navigation-recovery/Hardware/Firmware/v1.7/src/build/c30d_body.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ .ARM.attributes
+                0x0000000000000000       0x25 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .ARM.attributes
+                0x0000000000000025       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .ARM.attributes
+                0x0000000000000059       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .ARM.attributes
+                0x000000000000008d       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .ARM.attributes
+                0x00000000000000c1       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .ARM.attributes
+                0x00000000000000f5       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_line     0x0000000000000000     0x4b9f
+ .debug_line    0x0000000000000000       0x98 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .debug_line    0x0000000000000098     0x2f0e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_line    0x0000000000002fa6      0x105 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_line    0x00000000000030ab      0x654 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_line    0x00000000000036ff      0xe90 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_line    0x000000000000458f      0x610 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_info     0x0000000000000000     0x7201
+ .debug_info    0x0000000000000000       0x26 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .debug_info    0x0000000000000026     0x496f /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_info    0x0000000000004995       0xd8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_info    0x0000000000004a6d      0x660 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_info    0x00000000000050cd     0x19a6 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_info    0x0000000000006a73      0x78e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_abbrev   0x0000000000000000     0x10ca
+ .debug_abbrev  0x0000000000000000       0x14 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .debug_abbrev  0x0000000000000014      0x735 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_abbrev  0x0000000000000749       0xaa /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_abbrev  0x00000000000007f3      0x246 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_abbrev  0x0000000000000a39      0x4a3 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_abbrev  0x0000000000000edc      0x1ee /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_aranges  0x0000000000000000      0x1b8
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .debug_aranges
+                0x0000000000000020       0xb8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_aranges
+                0x00000000000000d8       0x20 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_aranges
+                0x00000000000000f8       0x30 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_aranges
+                0x0000000000000128       0x68 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_aranges
+                0x0000000000000190       0x28 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_str      0x0000000000000000    0x3f46b
+ .debug_str     0x0000000000000000       0x7b /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccpgWjzN.o
+ .debug_str     0x000000000000007b    0x3f1b6 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+                                      0x3f4e0 (size before relaxing)
+ .debug_str     0x000000000003f231       0x56 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+                                       0x31ac (size before relaxing)
+ .debug_str     0x000000000003f287       0x9e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+                                       0x4263 (size before relaxing)
+ .debug_str     0x000000000003f325       0xda /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+                                      0x3e65b (size before relaxing)
+ .debug_str     0x000000000003f3ff       0x6c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+                                       0x42d9 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x360e
+ .debug_loc     0x0000000000000000     0x22ef /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_loc     0x00000000000022ef       0x50 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_loc     0x000000000000233f      0x7fc /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_loc     0x0000000000002b3b      0x714 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_loc     0x000000000000324f      0x3bf /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_ranges   0x0000000000000000      0xf30
+ .debug_ranges  0x0000000000000000      0xa30 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_ranges  0x0000000000000a30       0x28 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_ranges  0x0000000000000a58       0xe0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_ranges  0x0000000000000b38      0x308 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_ranges  0x0000000000000e40       0xf0 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_macro    0x0000000000000000     0xb8d1
+ .debug_macro   0x0000000000000000      0x1a8 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000001a8      0xaae /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000c56       0x6b /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000cc1       0x3b /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000cfc       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000d1e       0x56 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000d74       0x51 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000dc5      0x103 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000ec8       0x6a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000000f32      0x1df /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001111       0x2d /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x000000000000113e       0x42 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001180      0xd39 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001eb9       0x12 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001ecb       0x58 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001f23       0x18 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001f3b       0x35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001f70       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000001fa4      0x174 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000002118       0x16 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x000000000000212e       0x43 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000002171       0x34 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000021a5       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000021b5       0x52 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000002207      0x182 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000002389      0x339 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000026c2       0x10 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000026d2       0x35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x0000000000002707       0xde /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000027e5       0xd6 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x00000000000028bb     0x8c35 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x000000000000b4f0      0x11e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x000000000000b60e       0x22 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_macro   0x000000000000b630       0x1a /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_macro   0x000000000000b64a       0x6c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_macro   0x000000000000b6b6      0x18e /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_macro   0x000000000000b844       0x71 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+ .debug_macro   0x000000000000b8b5       0x1c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o
+
+.debug_frame    0x0000000000000000      0x40c
+ .debug_frame   0x0000000000000000      0x20c /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cc4kXlsL.o
+ .debug_frame   0x000000000000020c       0x20 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccSEGV4O.o
+ .debug_frame   0x000000000000022c       0x58 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccuG13gP.o
+ .debug_frame   0x0000000000000284      0x140 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/ccEdHDxN.o
+ .debug_frame   0x00000000000003c4       0x48 /tmp/slicer-c30d-navigation-recovery/Hardware/.tmp/cciOjxzM.o

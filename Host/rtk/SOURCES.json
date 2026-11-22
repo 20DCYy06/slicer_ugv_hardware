@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/20DCYy06/slicer-ugv",
+  "commit": "919cc3914a2acfb51ed550cb6fa76abb9c5ffff3",
+  "source_package": "src/ugv_slicer_control",
+  "source_provenance_file": "src/ugv_slicer_control/SOURCES.json",
+  "source_package_manifest": "src/ugv_slicer_control/package.xml",
+  "source_package_license_declarations": [
+    "BSD-3-Clause",
+    "MIT"
+  ],
+  "modules": [
+    {
+      "path": "Host/rtk/c30d_link.py",
+      "sha256": "05a53e612d51162645f684cd4d8ecf45b092618e639c9c700eb1010410100944",
+      "recorded_origin": {
+        "file": "scripts/c30d_link.py",
+        "source": "review_packages/slicer_ugv_review_2026-10-23/teammate_workspace_reference/catkin_ws/src/Slicer_wasd_control/scripts/c30d_link.py",
+        "source_sha256": "c30ab873e9719de0b92f0ad180f177722079aa6c1fe12dcdec94648b37bbf20d",
+        "sha256": "6f63a54d787ba6ecf29fb335181202bdebd94679db7a26257877ebb4d2846295",
+        "adaptation": "Retain existing SLC2 protocol; require integer wheel speeds and new configured telemetry after nonce ACK; observe configuration signs/ACK and individual transmissions without changing wire format. 2026-10-25: explicit opt-in body_speed / 0x16 with independent 0x93 IMU feedback, existing owner and wheel odometry retained; no PWM/wheel fallback."
+      }
+    },
+    {
+      "path": "Host/rtk/chassis_core.py",
+      "sha256": "117bbed73a7566b94ef6817e0aaa54e4e762feda63226514343479739f528620",
+      "recorded_origin": {
+        "file": "scripts/chassis_core.py",
+        "source": "review_packages/slicer_ugv_review_2026-10-23/teammate_workspace_reference/catkin_ws/src/Slicer_wasd_control/scripts/chassis_core.py",
+        "source_sha256": "117bbed73a7566b94ef6817e0aaa54e4e762feda63226514343479739f528620",
+        "sha256": "117bbed73a7566b94ef6817e0aaa54e4e762feda63226514343479739f528620",
+        "adaptation": "Verbatim protocol/parser/odometry dependency."
+      }
+    },
+    {
+      "path": "Host/rtk/serial_transport.py",
+      "sha256": "7fa308c567d200412390d163c5462eedd328ef25ce119f9e2702ce09ad1bc015",
+      "recorded_origin": {
+        "file": "scripts/serial_transport.py",
+        "source": "review_packages/slicer_ugv_review_2026-10-23/teammate_workspace_reference/catkin_ws/src/Slicer_wasd_control/scripts/serial_transport.py",
+        "source_sha256": "2f613825beb1310991b325470202d3e52f948fc22fe8580ff230642ce45bfb6d",
+        "sha256": "7fa308c567d200412390d163c5462eedd328ef25ce119f9e2702ce09ad1bc015",
+        "adaptation": "Only identity and Link.__init__/send/close; remove unused standalone legacy CLI and receive/stream helpers."
+      }
+    }
+  ]
+}

@@ -11,11 +11,14 @@ BASE=0x08000000;SIZE=512*1024;SECTOR=16*1024
 
 def sha(data):return hashlib.sha256(data).hexdigest()
 def save(path,data):path.write_text(json.dumps(data,ensure_ascii=False,indent=2))
-def main():
+def main(*, artifact=None):
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--version',default='v1.0');p.add_argument('--flash',action='store_true');p.add_argument('--power-off-confirmed',action='store_true');a=p.parse_args()
     if not a.power_off_confirmed:p.error('需要确认12V物理断开、Motor OFF、仅USB供电')
     if not re.fullmatch(r'v\d+\.\d+(?:\.\d+)?',a.version):p.error('版本格式应为v1.0或v1.0.1')
-    version=ROOT/'Firmware'/a.version;binary=(version/'src/build/c30d_body.bin').read_bytes();meta=json.loads((version/'src/build/manifest.json').read_text())
+    if artifact is None:
+        build=ROOT/'Firmware'/a.version/'src/build'
+        artifact=((build/'c30d_body.bin').read_bytes(), json.loads((build/'manifest.json').read_text()))
+    binary,meta=artifact
     if meta['part']!='STM32F407VET6' or meta['sectors_changed']!=[0] or sha(binary)!=meta['sha256'] or len(binary)!=meta['size'] or not 8<=len(binary)<=SECTOR or len(binary)%4:raise ValueError('固件manifest/大小不匹配')
     cfg=load_config();port,expected=device(cfg)
     folder=ROOT/'Backups'/('board_'+expected[2]+'_'+str(time.time_ns()));folder.mkdir(parents=True)

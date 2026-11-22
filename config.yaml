@@ -1,18 +1,18 @@
 serial:
-  port: auto
+  port: /dev/c30d
   vid: 1a86
   pid: 55d4
-  serial_number: 5CF0016129
+  serial_number: 5CF0016377
   baud: 115200
   counts_per_revolution: 60000
   pwm_signs:
-  - 1
   - -1
+  - 1
   - -1
   - -1
   encoder_signs:
-  - 1
   - -1
+  - 1
   - 1
   - -1
 control:
@@ -21,9 +21,10 @@ control:
   linear_acceleration: 0.5
   angular_acceleration: 1.5
   motor_output_limit_percent: 100
+  mcu_pwm_accept_max_permille: 982
 speed:
   linear_min: 0.1
-  linear_max: 0.6
+  linear_max: 1.0
   linear_step: 0.05
   angular_min: 0.1
   angular_max: 1.0
