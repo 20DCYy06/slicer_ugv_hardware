@@ -1,8 +1,8 @@
 serial:
-  port: /dev/c30d
+  port: /dev/slicer-site-config-required
   vid: 1a86
   pid: 55d4
-  serial_number: 5CF0016377
+  serial_number: SITE_CONFIG_REQUIRED
   baud: 115200
   counts_per_revolution: 60000
   pwm_signs:
@@ -13,8 +13,8 @@ serial:
   encoder_signs:
   - -1
   - 1
-  - 1
   - -1
+  - 1
 control:
   publish_hz: 50
   telemetry_timeout_s: 1.0

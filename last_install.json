@@ -1,5 +1,5 @@
 {
-  "version": "v1.7",
-  "image_sha256": "4e9bcafeab040d7f1bd0ad8758948bc180e1c231afa247f8c492fd8a21e4431a",
-  "record_type": "release_reference"
+  "version": "v1.8",
+  "image_sha256": "247758263444d4b628ca7cda7b9f566c0ca2d3efa5b688273d17d3ff68648508",
+  "record_type": "published_image_only"
 }
