@@ -8,8 +8,8 @@ serial:
   pwm_signs:
   - -1
   - 1
-  - -1
-  - -1
+  - 1
+  - 1
   encoder_signs:
   - -1
   - 1

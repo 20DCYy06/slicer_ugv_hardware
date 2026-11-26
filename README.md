@@ -10,3 +10,7 @@
 从本仓根目录执行 `./build.sh v1.7` 可运行离线检查并构建对应固件。开发协作见 [AGENTS.md](AGENTS.md)，镜像和版本说明见 [v1.7](Firmware/v1.7/README.md)。整车使用入口见 [slicer-ugv](https://github.com/20DCYy06/slicer-ugv)。
 
 `Host/rtk/` 提供 RTK 驱动使用的串口、协议和里程计核心。整车构建负责安装这些模块。来源、对应提交及声明见 [RTK 模块来源记录](Host/rtk/SOURCES.json)。
+
+### C30D v1.8 与 v1.9
+
+本分支提供对应的固件源码及发布镜像 `Firmware/<版本>/bin/firmware.bin`。根目录的 `config.yaml` 是公开模板，串口路径和设备序列号由车端配置提供。整车构建通过 `SLICER_HARDWARE_CONFIG` 选择实际车辆配置。现场刷写与读回记录在各车保存。
